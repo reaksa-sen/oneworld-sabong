@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-img{
+    background-image: url('https://sabongnetwork.com/themes/LeanAndMean/assets/images/banner-home-bg.jpg');
+}
