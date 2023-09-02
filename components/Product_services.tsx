@@ -37,9 +37,10 @@ export const ProductService: React.FC = () => {
                 in meeting their needs.
               </p>
               <p className="mt-8 w-3/4">
-              By establishing a partnership with us, clients can expect complete cockfighting-focused 
-              services and support aimed atenhancing lifetime player value, promoting a secure gaming 
-              environment, and ensuring cost-effective acquisition.
+                By establishing a partnership with us, clients can expect
+                complete cockfighting-focused services and support aimed
+                atenhancing lifetime player value, promoting a secure gaming
+                environment, and ensuring cost-effective acquisition.
               </p>
             </span>
             <div className="grid md:grid-cols-2 grid-cols-1 mt-6">
@@ -47,9 +48,9 @@ export const ProductService: React.FC = () => {
                 <p className="text-gray-900 font-semibold md:text-xl text-base">
                   Game Setups:
                 </p>
-                {gameSetup.map((a, i) => (
+                {gameSetup.map((a) => (
                   <div
-                    key={i}
+                    key={a}
                     className="flex items-center gap-x-2 mt-3 text-sm md:text-base"
                   >
                     <FiCheckCircle className="h-5 text-red-600" />
@@ -61,9 +62,9 @@ export const ProductService: React.FC = () => {
                 <p className="text-gray-900 font-semibold md:text-xl text-base">
                   Studio & Streaming Setups:
                 </p>
-                {studioStream.map((d, i) => (
+                {studioStream.map((d) => (
                   <div
-                    key={i}
+                    key={d}
                     className="flex items-center gap-x-2 mt-3 text-sm md:text-base"
                   >
                     <FiCheckCircle className="h-5 text-red-600" />

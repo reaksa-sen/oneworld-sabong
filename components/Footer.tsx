@@ -24,9 +24,9 @@ export const Footer: React.FC = () => {
       <div className="container md:flex items-center text-center justify-between p-5 text-sm mt-16">
         <p className="text-xs md:text-sm flex justify-center">
           Sabong Network Philippines.
-          <div className="md:block hidden ">
+          <span className="md:block hidden ">
             <Copy />
-          </div>
+          </span>
         </p>
 
         <Icon />

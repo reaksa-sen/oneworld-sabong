@@ -2,7 +2,8 @@ import { TvIcon } from "@heroicons/react/20/solid";
 import { FaHeadphones } from "@react-icons/all-files/fa/FaHeadphones";
 
 export const Banner: React.FC = () => (
-  <div className="aspect-w-16 aspect-h-16 sm:aspect-h-10 md:aspect-h-9 custom-img bg-cover">
+  <div className="aspect-w-16 aspect-h-16 sm:aspect-h-10 md:aspect-h-7 custom-img bg-cover relative">
+    <div className="absolute bg-black/70 " />
     <div className="container flex flex-col items-center justify-center gap-y-5 md:gap-y-10 mt-9 sm:mt-0">
       <div className="flex flex-col gap-y-2 sm:gap-y-5 md:gap-y-8">
         <p className="sm:mt-11 text-white text-center line-clamp-1 font-bold text-xs sm:text-sm md:text-base lg:text-2xl">
